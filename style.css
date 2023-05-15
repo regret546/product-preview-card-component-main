@@ -162,16 +162,32 @@ table {
 .right-content {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 40px 25px;
 }
 
 .right-content > * {
   margin-bottom: 20px;
 }
 
-.right-content p {
+.right-content p,
+span,
+button {
   font-family: "Montserrat", sans-serif;
   color: hsl(225, 13%, 29%);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right-content p:first-child {
+  letter-spacing: 5px;
+}
+
+.right-content p:nth-of-type(2) {
+  line-height: 25px;
+}
+
+span {
+  display: inline;
 }
 
 img {
@@ -184,6 +200,23 @@ img {
 .price,
 h1 {
   font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: bolder;
+  margin-bottom: 0 !important;
+  margin-top: auto;
 }
 
 .attribution {
