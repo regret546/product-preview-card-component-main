@@ -153,6 +153,25 @@ table {
   box-sizing: border-box;
 }
 
+@media (max-width: 630px) {
+  .container {
+    height: auto;
+  }
+
+  .content {
+    margin: 20px;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .left-content,
+  .right-content {
+    height: 50%;
+    width: 350px !important;
+  }
+}
+
 .left-content,
 .right-content {
   width: 50%;
