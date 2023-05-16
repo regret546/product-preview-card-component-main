@@ -155,14 +155,14 @@ table {
 
 .left-content,
 .right-content {
-  width: 350px;
+  width: 50%;
   box-sizing: border-box;
 }
 
 .right-content {
   display: flex;
   flex-direction: column;
-  padding: 40px 25px;
+  padding: 30px;
 }
 
 .right-content > * {
@@ -188,6 +188,7 @@ button {
 
 span {
   display: inline;
+  vertical-align: middle;
 }
 
 img {
@@ -217,6 +218,11 @@ button {
   font-weight: bolder;
   margin-bottom: 0 !important;
   margin-top: auto;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .attribution {
